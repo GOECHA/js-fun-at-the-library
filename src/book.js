@@ -52,7 +52,7 @@ function writeBook(bookTitle, bookCharacter, genre) {
   return {
     title: bookTitle,
     mainCharacter: bookCharacter,
-    pageCount: calculatePageCount(bookTitle) ,
+    pageCount: calculatePageCount(bookTitle),
     genre: genre,
   }
 }
