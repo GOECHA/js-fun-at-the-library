@@ -29,12 +29,12 @@ return characterInfo;
 
 
 
-//**CORRECT ANSWER- function saveReview(clientReview, reviews) {
-//   if (!reviews.includes(clientReview)) {
-//    reviews.push(clientReview)
-//    }
-//   };
-
+//**CORRECT ANSWER-
+function saveReview(clientReview, reviews) {
+  if (!reviews.includes(clientReview)) {
+   reviews.push(clientReview)
+   }
+};
 //**Re-Work** #19
 // if (reviews.includes(clientReview)) {
 // } else {
