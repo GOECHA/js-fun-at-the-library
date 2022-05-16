@@ -39,6 +39,8 @@ titles.push(bookShelf[i].title);
  }
 return titles.join(", ")
 };
+// line 40 is outside of the for loop
+//
 
 
 // bookTitle();

@@ -14,13 +14,26 @@ var characterInfo = {
 
 return characterInfo;
 };
+//***Re-work save Reviews --> Below- w/o includes
+//****
+// function saveReview(userReview, reviews) {
+//   for (var i = 0; i < reviews.length; i++) {
+//     if (userReview === reviews[i]) {
+//       return reviews
+//     }
+//   } return reiews.push(userReview)
+// }
+// *****
 
 
-function saveReview(clientReview, reviews) {
-  if (!reviews.includes(clientReview)) {
-   reviews.push(clientReview)
-   }
-  };
+
+
+
+//**CORRECT ANSWER- function saveReview(clientReview, reviews) {
+//   if (!reviews.includes(clientReview)) {
+//    reviews.push(clientReview)
+//    }
+//   };
 
 //**Re-Work** #19
 // if (reviews.includes(clientReview)) {
